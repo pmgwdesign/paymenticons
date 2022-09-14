@@ -25,3 +25,7 @@ shopify_pay
 sofort
 visa
 amazon
+
+
+For custom icons use the customicons.liquid
+List items as an <li>, upload custom payment icons as svg - other payment icons will be recognized automatically with the string
