@@ -1,0 +1,48 @@
+<style>
+#payment-methodes-custom {
+  /* -- Abstand zum Inhalt davor/danach -- */
+  margin-top: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+  
+
+.payment-icons .icon {
+    width: 43px;
+    margin-top: 5px;
+      filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+
+}
+
+.list--inline {
+  display:flex;
+  padding: 0 15px 0 15px;
+  margin: 0;
+      justify-content: space-between;
+}
+  
+.list--inline li {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+
+}
+</style>
+
+<div id="payment-methodes-custom">
+<ul class="payment-icons list--inline">
+  <li>  <img src="{{ 'apple_pay' | payment_type_img_url }}" class="icon icon--full-color" alt="apple pay" /></li>
+   <li> <img src="{{ 'klarna' | payment_type_img_url }}" class="icon icon--full-color" alt="klarna" /></li>
+   <li> <img src="{{ 'sofort' | payment_type_img_url }}" class="icon icon--full-color" alt="sofort" /></li>
+ <li> <img src="{{ 'american_express' | payment_type_img_url }}" class="icon icon--full-color" alt="american express" /></li>
+ <li> <img src="{{ 'master' | payment_type_img_url }}" class="icon icon--full-color" alt="master" /></li>
+ <li> <img src="{{ 'paypal' | payment_type_img_url }}" class="icon icon--full-color" alt="paypal" /></li>
+ <li> <img src="{{ 'visa' | payment_type_img_url }}" class="icon icon--full-color" alt="visa" /></li>
+   <li> <img class="icon icon--full-color" src="{{ 'vorkasse3.svg' | asset_url }}"/>  </li>
+    
+</ul>
+                  
+		
+</div>
