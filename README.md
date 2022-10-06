@@ -1,5 +1,7 @@
 # paymenticons
 
+create snippet namend payment-methodes-custom
+
 place {% render 'payment-methodes-custom' %} where the icons should appear
 
 payment-icons:
